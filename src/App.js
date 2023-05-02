@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+//css
+import "./App.css";
+
+//Import
+import ContactList from "./Pages/ComtactList/ComtactList";
+import NewContact from "./Pages/NewContact/NewContact";
+import UpdateContact from "./Pages/UpdateContact/UpdateContact";
+import NotFound from "./Pages/NotFound/NotFound";
+import Header from "./Component/Header/Header";
+import Sidebar from "./Component/Sidebar/Sidebar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Sidebar />
+      <Routes>
+        <Route path="/" element={<ContactList />} />
+        <Route path="/new-contact" element={<NewContact />} />
+        <Route path="/update-contact" element={<UpdateContact />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.ContactList {
+  height: 100vh;
+  width: 30%;
+  border: 2px solid rgba(128, 128, 128, 0.583);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.122);
+}
+.ContactInfo {
+  width: 70%;
+  border: 2px solid rgba(128, 128, 128, 0.583);
+  margin-left: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.122);
+}

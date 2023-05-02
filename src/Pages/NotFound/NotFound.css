@@ -1,0 +1,15 @@
+body {
+  background-color: rgba(128, 128, 128, 0.064);
+}
+.NotFound {
+  text-align: center;
+  margin-top: 40px;
+}
+.NotFound > img {
+  width: 300px;
+  height: 300px;
+  border: none;
+}
+.NotFound > h3 {
+  font-size: 50px;
+}
