@@ -1,13 +1,14 @@
 import "./ComtactList.css";
-
-const ComtactList = () => {
+import ContactItem from "../../Component/ContactItem/ContactItem";
+import ContactInfo from "../../Component/ContactInfo/ContactInfo";
+const ComtactList = ({ stor }) => {
   return (
     <div className="wrapper">
       <div className="ContactList">
-        <h1>Contact List</h1>
+        <ContactItem stor={stor} />
       </div>
       <div className="ContactInfo">
-        <h1>Contact Info</h1>
+        <ContactInfo stor={stor} />
       </div>
     </div>
   );

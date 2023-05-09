@@ -11,14 +11,25 @@ import NotFound from "./Pages/NotFound/NotFound";
 import Header from "./Component/Header/Header";
 import Sidebar from "./Component/Sidebar/Sidebar";
 
+//import hooks
+import { useState } from "react";
+
 function App() {
+  const [stor, setStor] = useState([]);
+  const handleNewContact = (NewContact) => {
+    setStor((prevStore) => [...prevStore, NewContact]);
+    console.log(stor);
+  };
   return (
     <Router>
       <Header />
       <Sidebar />
       <Routes>
-        <Route path="/" element={<ContactList />} />
-        <Route path="/new-contact" element={<NewContact />} />
+        <Route path="/" element={<ContactList stor={stor} />} />
+        <Route
+          path="/new-contact"
+          element={<NewContact onNewContact={handleNewContact} />}
+        />
         <Route path="/update-contact" element={<UpdateContact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

@@ -1,0 +1,11 @@
+.contactInfo {
+  height: 200px;
+  background-color: rgba(128, 128, 128, 0.41);
+}
+.contactInfo > ul {
+  display: flex;
+  flex-direction: column;
+}
+.contactInfo > ul > li {
+  border-bottom: 1px solid black;
+}
