@@ -1,11 +1,71 @@
 .contactInfo {
-  height: 200px;
-  background-color: rgba(128, 128, 128, 0.41);
+  display: flex;
 }
-.contactInfo > ul {
+.contactInfoOne {
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-.contactInfo > ul > li {
-  border-bottom: 1px solid black;
+.contactInfoOne > h1 {
+  border: 1px solid black;
+  width: 270px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactInfoOne > ul {
+  background-color: white;
+  margin-left: -20px;
+}
+.contactInfoOne > ul > li > img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  margin-left: -30px;
+}
+.contactInfoOne > ul > li {
+  font-size: 60px;
+  font-weight: 600;
+}
+.contactInfoTwo {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.contactInfoTwo > ul {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.contactInfoTwo > ul > li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+.contactInfoTwo > ul > li > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.contactInfoTwoButton {
+  margin-left: 50px;
+}
+.contactInfoTwoButton > button {
+  width: 220px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 23px;
+  background-color: white;
+  cursor: pointer;
+}
+.contactInfoTwoButton > button > img {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+.link {
+  margin-left: 0px;
 }

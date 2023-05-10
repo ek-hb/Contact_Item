@@ -12,7 +12,7 @@ ul {
   margin-top: 15px;
   margin-left: 20px;
   padding-right: 25px;
-  width: 620px;
+  /* width: 620px; */
   background-color: rgba(128, 128, 128, 0.41);
   border-radius: 5px;
 }
@@ -20,11 +20,25 @@ ul > li {
   list-style: none;
   font-size: 25px;
   cursor: pointer;
+  display: flex;
+  margin-right: 10px;
+}
+span {
+  margin-top: 3px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background-color: gray;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 li > img {
   width: 30px;
   height: 30px;
   margin-left: 5px;
+  margin-top: 3px;
 }
 div > img {
   width: 50px;

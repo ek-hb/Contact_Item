@@ -1,12 +1,11 @@
 import "./NotFound.css";
+//import img
+import error from "./icon/error.png";
 
 const NotFound = () => {
   return (
     <div className="NotFound">
-      <img
-        src="https://cdn.icon-icons.com/icons2/712/PNG/512/browser-20_icon-icons.com_62178.png"
-        alt="Error"
-      />{" "}
+      <img src={error} alt="error" />
       <h3>File not found</h3>
     </div>
   );
