@@ -2,7 +2,7 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 //import img
 import logo from "./icon/logo.png";
-import contactList from "./icon/contactList.png";
+// import contactList from "./icon/contactList.png";
 import addContact from "./icon/addContact.png";
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
       </div>
       <div>
         <Link className="link" to="/">
-          <img src={contactList} alt="contactList" />
+          {/* <img src={contactList} alt="contactList" /> */}
           Contact List
         </Link>
         <Link className="link" to="/new-contact">
