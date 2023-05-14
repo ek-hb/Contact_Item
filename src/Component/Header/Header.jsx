@@ -1,9 +1,9 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
 //import img
-import logo from "./icon/logo.png";
-import contactList from "./icon/contactList.png";
-import addContact from "./icon/addContact.png";
+// import logo from "./icon/logo.png";
+// import contactList from "./icon/contactList.png";
+// import addContact from "./icon/addContact.png";
 
 const Header = () => {
   return (

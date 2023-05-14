@@ -2,13 +2,13 @@ import "./ContactInfo.css";
 import { Link } from "react-router-dom";
 
 //import img
-import phone from "./icon/phoneInfo.png";
-import email from "./icon/emailInfo.png";
-import gender from "./icon/genderInfo.png";
-import group from "./icon/groupInfo.png";
-import favorite from "./icon/favoriteInfo.png";
-import deleteContact from "./icon/deleteContact.png";
-import editContact from "./icon/editContact.png";
+// import phone from "./icon/phoneInfo.png";
+// import email from "./icon/emailInfo.png";
+// import gender from "./icon/genderInfo.png";
+// import group from "./icon/groupInfo.png";
+// import favorite from "./icon/favoriteInfo.png";
+// import deleteContact from "./icon/deleteContact.png";
+// import editContact from "./icon/editContact.png";
 
 const ContactInfo = ({ stor, onDeleteContact }) => {
   const handleDeleteContact = (id) => {
