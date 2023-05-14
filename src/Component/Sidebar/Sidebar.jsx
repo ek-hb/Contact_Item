@@ -45,13 +45,25 @@ const Sidebar = ({ stor }) => {
         </li>
         <li>
           Archives
-          <img src={archive} alt="archive" />
+          <img
+            src="https://cdn.icon-icons.com/icons2/1744/PNG/512/3643772-archive-archives-document-folder-open_113445.png"
+            alt="archive"
+          />
         </li>
       </ul>
       <div>
-        <img src={clock} alt="clock" />
-        <img src={window} alt="window" />
-        <img src={naw} alt="naw" />
+        <img
+          src="https://cdn.icon-icons.com/icons2/1585/PNG/512/3709755-always-hours-service-support-time_108071.png"
+          alt="clock"
+        />
+        <img
+          src="https://cdn.icon-icons.com/icons2/1585/PNG/512/3709742-board-forum-information-text-web_108094.png"
+          alt="window"
+        />
+        <img
+          src="https://cdn.icon-icons.com/icons2/1585/PNG/512/3709730-assistance-call-centre-help-service_108075.png"
+          alt="naw"
+        />
       </div>
     </div>
   );

@@ -31,30 +31,48 @@ const ContactInfo = ({ stor, onDeleteContact }) => {
             <div className="contactInfoTwo">
               <ul>
                 <li>
-                  <img src={phone} alt="phone" />
+                  <img
+                    src="https://cdn.icon-icons.com/icons2/72/PNG/256/mobile_phone_14388.png"
+                    alt="phone"
+                  />
                   Phone: {contact.phone}
                 </li>
                 <li>
-                  <img src={email} alt="email" />
+                  <img
+                    src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202011emailgmaillogomailsocialsocialmedia-115677_115624.png"
+                    alt="email"
+                  />
                   Email: {contact.email}
                 </li>
                 <li>
-                  <img src={gender} alt="gender" />
+                  <img
+                    src="https://cdn.icon-icons.com/icons2/2122/PNG/512/gender_sex_icon_131294.png"
+                    alt="gender"
+                  />
                   Gender: {contact.gender}
                 </li>
                 <li>
-                  <img src={group} alt="group" />
+                  <img
+                    src="https://cdn.icon-icons.com/icons2/1150/PNG/512/1486504843-collaboration-group-people-men-user-team-users_81379.png"
+                    alt="group"
+                  />
                   Group: {contact.group}
                 </li>
               </ul>
               <div className="contactInfoTwoButton">
                 <button onClick={() => handleDeleteContact(contact.id)}>
-                  <img src={deleteContact} alt="deleteContact" />
+                  <img
+                    src="https://cdn.icon-icons.com/icons2/1880/PNG/512/iconfinder-trash-4341321_120557.png"
+                    alt="deleteContact"
+                  />
                   Delete contact
                 </button>
                 <button>
                   <Link className="link" to="/update-contact">
-                    <img src={editContact} alt="editContact" />
+                    <img
+                      src="https://cdn.icon-icons.com/icons2/1880/PNG/512/iconfinder-settings-4341324_120534.png"
+                      alt="editContact"
+                    />
                     Edit contact{" "}
                   </Link>
                 </button>

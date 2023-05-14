@@ -9,16 +9,25 @@ const Header = () => {
   return (
     <div className="Header">
       <div className="headerItem">
-        <img src={logo} alt="logo" />
+        <img
+          src="https://cdn.icon-icons.com/icons2/2063/PNG/512/contact_book_contacts_notebook_icon_124667.png"
+          alt="logo"
+        />
         <h1>Contact</h1>
       </div>
       <div>
         <Link className="link" to="/">
-          <img src={contactList} alt="contactList" />
+          <img
+            src="https://cdn.icon-icons.com/icons2/1585/PNG/512/3709735-application-contact-directory-phonebook-storage_108083.png"
+            alt="contactList"
+          />
           Contact Lis
         </Link>
         <Link className="link" to="/new-contact">
-          <img src={addContact} alt="addContact" />
+          <img
+            src="https://cdn.icon-icons.com/icons2/1585/PNG/512/3709751-complaint-dissatisfaction-expression-feedback-report_108092.png"
+            alt="addContact"
+          />
           Add Contact
         </Link>
       </div>
