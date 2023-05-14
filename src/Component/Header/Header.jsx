@@ -15,7 +15,7 @@ const Header = () => {
       <div>
         <Link className="link" to="/">
           <img src={contactList} alt="contactList" />
-          Contact List
+          Contact Lis
         </Link>
         <Link className="link" to="/new-contact">
           <img src={addContact} alt="addContact" />
