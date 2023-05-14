@@ -22,7 +22,7 @@ const ContactInfo = ({ stor, onDeleteContact }) => {
             <div className="contactInfoOne">
               <ul>
                 <li>
-                  <img src={favorite} alt="favorite" />
+                  {/* <img src={favorite} alt="favorite" /> */}
                   {contact.name}
                 </li>{" "}
               </ul>
