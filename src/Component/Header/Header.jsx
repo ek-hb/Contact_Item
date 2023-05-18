@@ -2,8 +2,8 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 //import img
 import logo from "../icon /logo.png";
-// import contactList from "./icon/contactList.png";
-// import addContact from "./icon/addContact.png";
+import contactList from "../icon /contactList.png";
+import addContact from "../icon /addContact.png";
 
 const Header = () => {
   return (
@@ -14,17 +14,11 @@ const Header = () => {
       </div>
       <div>
         <Link className="link" to="/">
-          <img
-            src="https://cdn.icon-icons.com/icons2/1585/PNG/512/3709735-application-contact-directory-phonebook-storage_108083.png"
-            alt="contactList"
-          />
+          <img src={contactList} alt="contactList" />
           Contact List
         </Link>
         <Link className="link" to="/new-contact">
-          <img
-            src="https://cdn.icon-icons.com/icons2/1585/PNG/512/3709751-complaint-dissatisfaction-expression-feedback-report_108092.png"
-            alt="addContact"
-          />
+          <img src={addContact} alt="addContact" />
           Add Contact
         </Link>
       </div>
